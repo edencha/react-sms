@@ -19,7 +19,13 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@material-ui/core": "^4.6.1",
+    "auto-bind": "^3.0.0",
+    "filepond": "^4.7.4",
+    "react-filepond": "^7.0.1",
+    "recompose": "^0.30.0"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
@@ -28,7 +34,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "author": "",
+  "author": "KangHyeok",
   "homepage": "",
   "license": "MIT",
   "repository": "",
